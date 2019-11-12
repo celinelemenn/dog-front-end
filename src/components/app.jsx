@@ -4,7 +4,7 @@ import Dogs from './dogs';
 const App = () => {
   return (
     <div className="app">
-      <p>React + Redux starter</p>
+      <h1>All the doggies</h1>
       <Dogs />
     </div>
   );

@@ -1,13 +1,12 @@
 import React from 'react';
 
 const Dog = (props) => {
-  // debugger;
+    // debugger;
   return (
-    <div>
-      <h1>{props.dog.name}</h1>
-      <p> {props.dog.gender}</p>
-      <p> {props.dog.height}</p>
+    <div className="dogItem">
       <img src={props.dog.image} alt="" />
+      <h2>{props.dog.name}</h2>
+      <p> {props.dog.gender} - {props.dog.height}</p>
     </div>
   );
 };
